@@ -1,2 +1,2 @@
 # website_proposal_2
-An another proposal for a website.
+A proposal for a website (2)
