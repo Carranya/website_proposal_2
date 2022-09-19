@@ -1,9 +1,9 @@
-<div class="contacttitle">
+<div id="contactTitle">
     <h2>Kontakt</h2>
 </div>
 
-<div class="contact">
-    <div class="contactleft">
+<div id="contact">
+    <div id="contactLeft">
         <p><b>Adresse:</b><br>
         Karin (Martin) Giang<br>
         Schützenmattstrasse 7<br>
@@ -20,7 +20,7 @@
         Zivilstand: verheiratet<br>
         Nationalität: Schweiz / Heimat: Wängi TG</p>
     </div>
-    <div class="contactright">
-        <img src="img/karin.jpg" id="karinpic" alt="Karin Giang" width="300"></img>
+    <div id="contactRight">
+        <img src="img/karin.jpg" id="karinPic" alt="Karin Giang" width="300"></img>
     </div>
 </div>

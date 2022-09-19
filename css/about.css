@@ -1,0 +1,7 @@
+#about{
+    display: flex;
+}
+
+#aboutRight{
+    text-align: right;
+}

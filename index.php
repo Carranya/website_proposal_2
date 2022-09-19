@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <?php require_once "pageFunctions.php"; ?>
+
     <div id="headline">Head</div>
     <div id="menu">
         <?php
-            include "pages/menu.php";
+            include "pages/menu.php";    
         ?>
     </div>
-    <div id="main">Main</div>
+    <div id="main">
+        <?php
+            if(isset($_GET['page'])){
+                changepage($_GET['page']);
+            } else {
+                include "pages/home.php";
+            }
+            
+        ?>   
+    </div>
     <div id="footline">Foot</div>
 </body>
 </html>

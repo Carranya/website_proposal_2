@@ -1,0 +1,13 @@
+#contact{
+    display: flex;
+}
+
+#contactLeft{
+    width: 50%;
+}
+
+#contactRight{
+    width: 50%;
+    text-align: right;
+}
+
