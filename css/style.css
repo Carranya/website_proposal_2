@@ -11,7 +11,9 @@ body{
 }
 
 #menu{
+    display: flex;
     background-color: forestgreen;
+    justify-content: right;
 }
 
 ul{
