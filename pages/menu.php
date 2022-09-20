@@ -1,6 +1,13 @@
 <ul>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="index.php?page=news">News</a></li>
-    <li><a href="index.php?page=contact">Contact</a></li>
-    <li><a href="index.php?page=about">About</a></li>
+    <li><button id="idHome">Home</button></li>
+    <li><button id="idNews">News</button></li>
+    <li><button id="idContact">Contact</button></li>
+    <li><button id="idAbout">About</button></li>
 </ul>
+
+<script>  
+/*
+    let page = document.getElementById("idHome");
+    let id = page.id;
+    document.addEventListener("click", function(){menuSelect(id);});*/
+</script>

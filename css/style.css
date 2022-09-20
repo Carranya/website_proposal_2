@@ -30,15 +30,18 @@ li{
     float: left;
 }
 
-li a{
+li button{
     display: block;
     padding: 0.5em;
     text-decoration: none;
     text-align: center;
     color: white;
+    background-color: #ffff0000;
+    border: none;
+    
 }
 
-li a:hover{
+li button:hover{
     background-color: limegreen;
     color: black;
 }
