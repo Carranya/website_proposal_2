@@ -1,13 +1,10 @@
-#contactContent{
-    display: flex;
+#contactTitle{
+    text-align: center;
 }
 
-#contactLeft{
-    width: 50%;
+#contactPic{
+    float: right;
+    width: 300px;
+    margin: 0.3em;
+    border: 1px solid black;
 }
-
-#contactRight{
-    width: 50%;
-    text-align: right;
-}
-
