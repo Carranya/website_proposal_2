@@ -1,5 +1,6 @@
 @import "about.css";
 @import "contact.css";
+@import "displayNone.css";
 
 body{
     font-family: Verdana;
@@ -33,6 +34,7 @@ li{
 li button{
     display: block;
     padding: 0.5em;
+    font-size: 1em;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -55,5 +57,3 @@ li button:hover{
 #footline{
     background-color: lightgreen;
 }
-
-
