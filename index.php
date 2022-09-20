@@ -16,7 +16,10 @@
         include "pages/about.php";
     ?>
 
-    <div id="headline">Head</div>
+    <div id="headline">
+        <h1>Website Proposal 2</h1>    
+
+    </div>
 
     <div id="menu">
         <?php include "pages/menu.php"; ?>
@@ -24,7 +27,9 @@
 
     <div id="main"></div>
 
-    <div id="footline">Foot</div>
+    <div id="footline">
+        Karin Giang 2022
+    </div>
 </body>
 </html>
 

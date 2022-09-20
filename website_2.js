@@ -1,5 +1,8 @@
 window.onload = function(){
 
+    let firstVisit = document.getElementById("home");
+    document.getElementById("main").innerHTML = firstVisit.innerHTML;
+
     document.getElementById("idHome").addEventListener("click", function(){showPage("home");});
     document.getElementById("idNews").addEventListener("click", function(){showPage("news");});
     document.getElementById("idContact").addEventListener("mouseover", function(){showPage("contact");});
