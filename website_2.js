@@ -2,8 +2,8 @@ window.onload = function(){
 
     document.getElementById("idHome").addEventListener("click", function(){showPage("home");});
     document.getElementById("idNews").addEventListener("click", function(){showPage("news");});
-    document.getElementById("idContact").addEventListener("click", function(){showPage("contact");});
-    document.getElementById("idAbout").addEventListener("click", function(){showPage("about");});
+    document.getElementById("idContact").addEventListener("mouseover", function(){showPage("contact");});
+    document.getElementById("idAbout").addEventListener("mouseover", function(){showPage("about");});
 }
 
 function showPage(id){
