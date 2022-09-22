@@ -2,7 +2,7 @@
 
     <h2 id="contactTitle">Kontakt</h2>
 
-    <img src="img/karin.jpg" id="contactPic" alt="Karin Giang"></img>
+    <img src="img/karin.jpg" class="classPic" alt="Karin Giang"></img>
     
     <p><b>Adresse:</b><br>
     Karin (Martin) Giang<br>

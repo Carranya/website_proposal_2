@@ -1,7 +1,7 @@
 <div id="about">
  
     <h2 id="aboutTitle">Über mich</h2>
-    <img src="img/karin2.jpg" id="aboutPic"></img>
+    <img src="img/karin2.jpg" class="classPic" alt="Karin Giang"></img>
 
     <p>
     Guten Tag, ich bin Karin Giang.
@@ -10,7 +10,7 @@
     <br><br>
     Momentan bin ich auf der Suche einer Firma, die bereit ist,<br>
     mir den Einstieg in die Informatik Branche zu ermöglichen.
-    Ich habe zwar bisher noch keine Ausbildung im Bereich Informatik,<br>
+    Ich habe zwar bisher noch keine Ausbildung im Bereich Informatik absolviert,<br>
     aber ich konnte privat durch Selbststudium das Programmieren von HTML, CSS, PHP, MySQL und Javascript aneignen.
     <br><br>
     In meiner Freizeit programmiere ich sehr gerne und lerne immer neue Techniken und Programmiersprachen kennen.

@@ -6,13 +6,6 @@
     text-align: center;
 }
 
-#aboutPic{
-    float: right;
-    width: 300px;
-    margin: 0.3em;
-    border: 1px solid black;
-}
-
 #aboutTech{
     text-align: center;
 }

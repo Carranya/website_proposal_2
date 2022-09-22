@@ -60,3 +60,30 @@ li button:hover{
     font-size: 0.6em;
     text-align: center;
 }
+
+.classPic{
+    float: right;
+    width: 300px;
+    margin: 0.3em;
+    border: 1px solid black;
+}
+
+@media (max-width: 480px){
+    body{
+        word-break: break-word;
+    }
+
+    #menu{
+        display: block;
+        justify-content: unset;
+    }
+
+    li{
+        float: unset;
+    }
+
+    .classPic{
+        float: unset;
+        width: 200px;
+    }
+}

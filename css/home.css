@@ -1,4 +1,13 @@
+#home{
+    text-align: justify;
+}
+
 #homeTitle{
     text-align: center;
 }
-
+/*
+@media (max-width: 480px){
+    #homeTitle{
+        word-break: break-all;
+    }
+}*/
