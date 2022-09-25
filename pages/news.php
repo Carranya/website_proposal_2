@@ -1,3 +1,3 @@
 <div id="news">
-News
+<h2 class="classTitle">News</h2>
 </div>

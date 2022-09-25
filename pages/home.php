@@ -1,5 +1,5 @@
 <div id="home">
-    <h1 id="homeTitle">Herzlich Willkommen</h1>
+    <h1 class="classTitle">Herzlich Willkommen</h1>
     <p>
     Diese Webseite dient als Vorschlag für ein Projekt.<br>
     Es ist schlicht aufgebaut, aber die Menü-Buttons sind mit Javascript gesteuert.<br>

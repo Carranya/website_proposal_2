@@ -1,6 +1,6 @@
 <div id="contact">
 
-    <h2 id="contactTitle">Kontakt</h2>
+    <h2 class="classTitle">Kontakt</h2>
 
     <img src="img/karin.jpg" class="classPic" alt="Karin Giang"></img>
     

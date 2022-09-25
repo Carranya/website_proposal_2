@@ -1,6 +1,6 @@
 <div id="about">
  
-    <h2 id="aboutTitle">Über mich</h2>
+    <h2 class="classTitle">Über mich</h2>
     <img src="img/karin2.jpg" class="classPic" alt="Karin Giang"></img>
 
     <p>

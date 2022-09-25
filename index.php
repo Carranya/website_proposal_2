@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Proposal 2</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="website_2.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
     <?php
