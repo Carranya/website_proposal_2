@@ -4,7 +4,7 @@ window.onload = function(){
     document.getElementById("main").innerHTML = firstVisit.innerHTML;
 
     document.getElementById("idHome").addEventListener("click", function(){showPage("home");});
-    document.getElementById("idNews").addEventListener("click", function(){showPage("news");});
+    document.getElementById("idWebsites").addEventListener("click", function(){showPage("websites");});
     document.getElementById("idContact").addEventListener("mouseover", function(){showPage("contact");});
     document.getElementById("idAbout").addEventListener("mouseover", function(){showPage("about");});
 }
