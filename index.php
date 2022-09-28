@@ -11,7 +11,7 @@
 <body>
     <?php
         include "pages/home.php";
-        include "pages/news.php";
+        include "pages/websites.php";
         include "pages/contact.php";
         include "pages/about.php";
     ?>
