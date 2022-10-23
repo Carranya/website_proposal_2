@@ -1,0 +1,38 @@
+body {
+    /* background-color: lightblue; */
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightpink;
+    width: 300%;
+    height: 300%;
+    position: absolute;
+    transform: translate(0, 0);
+    transition: transform 1s;
+}
+
+.classPage {
+    display: inline;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#home {
+    background-color: blue;
+}
+
+#websites {
+    background-color: blue;
+}
+
+#about {
+    background-color: blue;
+    transform: rotate(180deg);
+}
+
+#contact {
+    background-color: blue;
+    transform: rotate(180deg);
+}
