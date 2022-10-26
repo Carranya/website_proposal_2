@@ -9,6 +9,12 @@
     <script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
+    <div id="menu">
+        <button id="buttonHome" class="classButton">Home</button><br>
+        <button id="buttonWebsites" class="classButton">Websites</button><br>
+        <button id="buttonAbout" class="classButton">About</button><br>
+        <button id="buttonContact" class="classButton">Contact</button><br>
+    </div>
     <div id="main">
         <div class="classPage">r</div>
         <div id="home" class="classPage">Home</div>
