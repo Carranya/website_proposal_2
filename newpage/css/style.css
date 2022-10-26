@@ -13,6 +13,24 @@ body {
     transition: transform 1s;
 }
 
+#menu {
+    background-color: lightblue;
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 0;
+    z-Index: 2;
+}
+
+.classButton {
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.classButton:hover {
+    opacity: 0.4;
+}
+
 .classPage {
     display: inline;
     width: 33.3%;
@@ -29,10 +47,8 @@ body {
 
 #about {
     background-color: blue;
-    transform: rotate(180deg);
 }
 
 #contact {
     background-color: blue;
-    transform: rotate(180deg);
 }
