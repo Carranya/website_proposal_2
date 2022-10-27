@@ -1,5 +1,6 @@
 body {
     /* background-color: lightblue; */
+    margin: 0;
 }
 
 #main {
@@ -14,20 +15,34 @@ body {
 }
 
 #menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
     background-color: lightblue;
     position: absolute;
-    width: 300px;
+    width: 360px;
     top: 0;
     left: 0;
-    z-Index: 2;
+    z-Index: 3;
+    transform: translate(-320px, 0);
+    transition: transform 1s;
 }
 
-.classButton {
-    padding: 10px;
+.naviPic {
+    width: 40px;
+    height: 40px;
+}
+
+.menuButton {
+    font-size: 1.2em;
     background-color: lightgreen;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-.classButton:hover {
+.menuButton:hover {
     opacity: 0.4;
 }
 
