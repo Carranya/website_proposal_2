@@ -14,6 +14,7 @@
         <button id="buttonWebsites" class="classButton">Websites</button><br>
         <button id="buttonAbout" class="classButton">About</button><br>
         <button id="buttonContact" class="classButton">Contact</button><br>
+        <button id="buttonProjects" class="classButton">Projects</button><br>
     </div>
     <div id="main">
         <div class="classPage">r</div>
