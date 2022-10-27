@@ -10,11 +10,11 @@
 </head>
 <body>
     <div id="menu">
-        <button id="buttonHome" class="classButton">Home</button><br>
-        <button id="buttonWebsites" class="classButton">Websites</button><br>
-        <button id="buttonAbout" class="classButton">About</button><br>
-        <button id="buttonContact" class="classButton">Contact</button><br>
-        <button id="buttonProjects" class="classButton">Projects</button><br>
+        <span id="buttonHome" class="menuButton">Home</span>
+        <span id="buttonWebsites" class="menuButton">Websites</span>
+        <span id="buttonAbout" class="menuButton">About</span>
+        <span id="buttonContact" class="menuButton">Contact</span>
+        <img src='img/icons/mail.png' id='openNavi' class='naviPic'></img>
     </div>
     <div id="main">
         <div class="classPage">r</div>
