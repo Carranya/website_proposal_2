@@ -14,7 +14,7 @@
         <span id="buttonWebsites" class="menuButton">Websites</span>
         <span id="buttonAbout" class="menuButton">About</span>
         <span id="buttonContact" class="menuButton">Contact</span>
-        <img src='img/icons/mail.png' id='openNavi' class='naviPic'></img>
+        <img src='img/icons/hamburger.png' id='openNavi' class='naviPic'></img>
     </div>
     <div id="main">
         <div class="classPage">r</div>
