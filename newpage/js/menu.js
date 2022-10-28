@@ -4,33 +4,21 @@ window.onload = function(){
     // let about = document.getElementById("main"); about.style.transform = "translate(-66.8%, -33.4%)"; 
     // let contact = document.getElementById("main"); contact.style.transform = "translate(-33.4%, -66.8%)";
 
-    var step = 0;
-
-    if(step == 0){
-        console.log(step);
-        document.getElementById("openNavi").addEventListener("click", showMenu);
-        step++; 
-    } else {
-        console.log(step);
-        document.getElementById("closeNavi").addEventListener("click", closeMenu);
-        step--;
-    }
     
+
+    
+        
+        document.getElementById("openNavi").addEventListener("mouseover", showMenu);
+        document.getElementById("openNavi").addEventListener("click", closeMenu);
 }
 
 function showMenu(){
     document.getElementById("menu").style.transform = "translate(0, 0)";
-    let naviChange = document.getElementById("openNavi");
-    naviChange.src = "img/icons/linkedin.png";
-    naviChange.id ="closeNavi";
-    return;
+    document.getElementById("openNavi").src = "img/icons/close.png";
 }
 
 function closeMenu(){
     document.getElementById("menu").style.transform = "translate(-320px, 0)";
-    let naviChange = document.getElementById("closeNavi");
-    naviChange.src = "img/icons/mail.png";
-    naviChange.id ="openNavi";
-    return;
+    document.getElementById("openNavi").src = "img/icons/hamburger.png";
 }
 
