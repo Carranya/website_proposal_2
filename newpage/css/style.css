@@ -1,6 +1,7 @@
 body {
     /* background-color: lightblue; */
     margin: 0;
+    font-family: Verdana;
 }
 
 #main {
@@ -24,22 +25,20 @@ body {
     top: 0;
     left: 0;
     z-Index: 3;
-    transform: translate(-320px, 0);
+    transform: translate(-40px, 0);
     transition: transform 1s;
 }
 
-.naviPic {
+#openNavi {
+    display: none;
     width: 40px;
     height: 40px;
 }
 
 .menuButton {
-    font-size: 1.2em;
-    background-color: lightgreen;
+    cursor: pointer;
     margin: 5px;
     padding: 5px;
-    border: 1px solid black;
-    border-radius: 10px;
 }
 
 .menuButton:hover {
@@ -66,4 +65,14 @@ body {
 
 #contact {
     background-color: blue;
+}
+
+@media (min-width: 640px){
+    #menu {
+        transform: translate(-320px, 0);
+    }
+
+    #openNavi {
+        display: block;
+    }
 }
