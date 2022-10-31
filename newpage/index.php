@@ -22,7 +22,7 @@
         <div class="classPage">r</div>
         <div id="websites" class="classPage">Websites</div>
         <div class="classPage">r</div>
-        <div id="about" class="classPage">About</div>
+        <div id="about" class="classPage"><?php include "pages/about.php" ?></div>
         <div class="classPage">r</div>
         <div id="contact" class="classPage">Contact</div>
         <div class="classPage">r</div>
