@@ -25,11 +25,20 @@
         <?php include "pages/menu.php"; ?>
     </div>
 
+<?php
+$test = "Hallo";
+echo $test . "<br>";
+?>
+
     <div id="main"></div>
 
     <div id="footline">
         Karin Giang 2022
     </div>
+
+<?php
+    $marit = "Martin";
+?>
 </body>
 </html>
 
