@@ -1,6 +1,6 @@
-<div id="about">
+
  
-    <h2 class="classTitle">Über mich</h2>
+    <h2>Über mich</h2>
     <img src="img/karin2.jpg" class="classPic" alt="Karin Giang"></img>
 
     <p>
@@ -25,4 +25,3 @@
         <img src='img/tech/mysql.png'></img>
         <img src='img/tech/javascript.png'></img>
     </p>
-</div>
