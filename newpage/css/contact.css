@@ -1,0 +1,7 @@
+#contactPage {
+    width: 60%;
+    display: block;
+    border: 1px solid black;
+    background-color: lightgreen;
+    z-index: 10;
+}
