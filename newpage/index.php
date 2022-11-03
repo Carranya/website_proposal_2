@@ -18,13 +18,13 @@
     </div>
     <div id="main">
         <div class="classPage">r</div>
-        <div id="home" class="classPage"><?php include "pages/websites.php"; ?></div>
+        <div id="home" class="classPage"><?php include "pages/home.php"; ?></div>
         <div class="classPage">r</div>
         <div id="websites" class="classPage"><?php include "pages/websites.php"; ?></div>
         <div class="classPage">r</div>
         <div id="about" class="classPage"><?php include "pages/about.php" ?></div>
         <div class="classPage">r</div>
-        <div id="contact" class="classPage">Contact</div>
+        <div id="contact" class="classPage"><?php include "pages/contact.php"; ?></div>
         <div class="classPage">r</div>
     </div>
 </body>
