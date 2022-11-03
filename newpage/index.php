@@ -18,7 +18,7 @@
     </div>
     <div id="main">
         <div class="classPage">r</div>
-        <div id="home" class="classPage">Home</div>
+        <div id="home" class="classPage"><?php include "pages/websites.php"; ?></div>
         <div class="classPage">r</div>
         <div id="websites" class="classPage"><?php include "pages/websites.php"; ?></div>
         <div class="classPage">r</div>
