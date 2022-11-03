@@ -1,3 +1,4 @@
+<div id="aboutPage">
 <h2>Über mich</h2>
 <img src="img/karin2.jpg" class="classPic" alt="Karin Giang" title="Karin Giang"></img>
 <p>
@@ -21,3 +22,4 @@ Bisher habe ich bereits kleine PHP- und Javascript-Tools sowie auch Webpages pro
     <img src='img/tech/mysql.png'></img>
     <img src='img/tech/javascript.png'></img>
 </p>
+</div>
