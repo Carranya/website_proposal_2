@@ -1,3 +1,4 @@
+<div id="contactPage">
 <h2>Kontakt</h2>
 <img src="img/karin.jpg" class="classPic" alt="Karin Giang" title="Karin Giang"></img>
 
@@ -14,3 +15,5 @@ Schützenmattstrasse 7<br>
 Geburtstagsdatum:. 15. Februar 1982<br>
 Zivilstand: verheiratet<br>
 Nationalität: Schweiz / Heimat: Wängi TG</p>
+
+</div>
