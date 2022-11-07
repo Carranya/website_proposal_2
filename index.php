@@ -23,6 +23,7 @@
 
     <div id="menu">
         <?php include "pages/menu.php"; ?>
+        <?php include "pages/menu.php"; ?>
     </div>
 
     <div id="main"></div>
