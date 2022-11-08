@@ -90,6 +90,10 @@ body {
     margin-top: 15%;
 }
 
+.innerPage a {
+    color: black;
+}
+
 @media (min-width: 640px){
     #menu {
         transform: translate(-320px, 0);

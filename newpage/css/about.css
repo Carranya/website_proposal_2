@@ -5,3 +5,11 @@
 #aboutTech img {
     width: 100px;
 }
+
+#officalHomepage {
+    font-weight: bold;
+}
+
+#officalHomepage:hover {
+    opacity: 0.6;
+}
