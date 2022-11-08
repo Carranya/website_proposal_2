@@ -5,3 +5,14 @@
     background-color: lightgreen;
     z-index: 10;
 }
+
+.contactBigIcons {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.5s;
+    margin: 0.3em;
+}
+
+.contactBigIcons:hover {
+    transform: scale(1.2)
+}
