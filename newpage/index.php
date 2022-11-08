@@ -17,15 +17,15 @@
         <img src='img/icons/hamburger.png' id='openNavi' class='naviPic'></img>
     </div>
     <div id="main">
-        <div class="classPage">r</div>
+        <div class="classPage"></div>
         <div id="home" class="classPage"><?php include "pages/home.php"; ?></div>
-        <div class="classPage">r</div>
+        <div class="classPage"></div>
         <div id="websites" class="classPage"><?php include "pages/websites.php"; ?></div>
-        <div class="classPage">r</div>
+        <div class="classPage"></div>
         <div id="about" class="classPage"><?php include "pages/about.php" ?></div>
-        <div class="classPage">r</div>
+        <div class="classPage"></div>
         <div id="contact" class="classPage"><?php include "pages/contact.php"; ?></div>
-        <div class="classPage">r</div>
+        <div class="classPage"></div>
     </div>
 </body>
 </html>
