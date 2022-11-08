@@ -13,7 +13,7 @@
         <a href="https://www.linkedin.com/in/karin-giang-0a6072247" target="_blank"><img src="img/icons/linkedin.png" class="contactBigIcons"></a>
         <a href="https://github.com/Carranya" target="_blank"><img src="img/icons/github.png" class="contactBigIcons"></a>
         <p><b>Sonstige Informationen:</b><br>
-        Geburtstagsdatum:. 15. Februar 1982<br>
+        Geburtsdatum:. 15. Februar 1982<br>
         Zivilstand: verheiratet<br>
         Nationalität: Schweiz / Heimat: Wängi TG</p>
     </div>
