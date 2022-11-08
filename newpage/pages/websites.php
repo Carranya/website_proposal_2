@@ -8,10 +8,9 @@
         <p>Alle Codes von meiner Webseiten Vorschlägen sind in meiner <b><a href='https://github.com/Carranya'>GitHub Seite</a></b> einsehbar.</p>
         <div class="websitesContent">
             <p>
-                <a href="https://github.com/Carranya/homepage_v1" target="_blank"><img src="img/websites/homepage_v1.jpg" class="websitesPic"></img></a>
-                <a href="https://github.com/Carranya/homepage_v2" target="_blank"><img src="img/websites/homepage_v2.jpg" class="websitesPic"></img></a>
-                <a href="https://github.com/Carranya/website_proposal_1" target="_blank"><img src="img/websites/website_proposal_1.jpg" class="websitesPic"></img></a>
-                <a href="https://github.com/Carranya/website_proposal_3" target="_blank"><img src="img/websites/website_proposal_3.jpg" class="websitesPic"></img></a>
+                <a href="projects/homepage_v1/index.php" target="_blank"><img src="img/websites/homepage_v1.jpg" class="websitesPic"></img></a>
+                <a href="projects/website_proposal_1/index.php" target="_blank"><img src="img/websites/website_proposal_1.jpg" class="websitesPic"></img></a>
+                <a href="projects/website_proposal_3/index.php" target="_blank"><img src="img/websites/website_proposal_3.jpg" class="websitesPic"></img></a>
             </p>
         </div>
     </div>
