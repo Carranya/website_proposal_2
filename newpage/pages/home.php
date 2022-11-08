@@ -1,6 +1,7 @@
 <div class="centerPage">
     <div class="innerPage">
-        <h1>Herzlich Willkommen</h1>
+        <h1>Website Proposal 2</h1>
+        <h2>Herzlich Willkommen</h2>
         <p>
         Diese Webseite dient als Vorschlag für ein Projekt.<br>
         Es ist schlicht aufgebaut, aber die Menü-Buttons sind mit Javascript gesteuert.<br>
