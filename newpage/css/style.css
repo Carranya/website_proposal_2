@@ -11,7 +11,7 @@ body {
 #main {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightpink;
+    background-color: lightgreen;
     width: 300%;
     height: 300%;
     position: absolute;
@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    background-color: lightblue;
     position: absolute;
     width: 360px;
     top: 0;
@@ -82,7 +81,7 @@ body {
 .innerPage {
     width: 90%;
     display: block;
-    border: 1px solid black;
+    border: 10px solid forestgreen;
     background-color: lightgreen;
     margin-top: 15%;
 }
