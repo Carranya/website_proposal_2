@@ -55,6 +55,10 @@ body {
     text-align: justify;
 }
 
+.classPage h1 {
+    text-align: center;
+}
+
 .classPage h2 {
     text-align: center;
 }
