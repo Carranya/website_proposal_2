@@ -17,3 +17,8 @@
 .websitesPic:hover {
     transform: scale(1.2);
 }
+
+#websitesLogo {
+    width: 20px;
+    height: 20px;
+}
