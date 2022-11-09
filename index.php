@@ -22,8 +22,8 @@
     </div>
 
     <div id="menu">
-        <?php include "pages/menu.php"; ?>
-        <?php include "pages/menu.php"; ?>
+        <?php include "pages/menu.php"; echo $a; ?>
+        
     </div>
 
     <div id="main"></div>
