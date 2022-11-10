@@ -22,3 +22,15 @@
     width: 20px;
     height: 20px;
 }
+
+@media (min-width: 920px) {
+    .websitesContent {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1320px) {
+    .websitesContent {
+        width: 1020px;
+    }
+}
