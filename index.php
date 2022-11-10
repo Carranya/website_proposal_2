@@ -22,7 +22,7 @@
     </div>
 
     <div id="menu">
-        <?php include "pages/menu.php"; echo $a; ?>
+        <?php include "pages/menu.php";?>
         
     </div>
 
@@ -31,10 +31,6 @@
     <div id="footline">
         Karin Giang 2022
     </div>
-
-<?php
-    $marit = "Martin";
-?>
 </body>
 </html>
 
