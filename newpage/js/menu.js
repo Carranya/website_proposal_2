@@ -22,18 +22,22 @@ function closeMenu(){
 }
 
 function openHome(){
-    document.getElementById("main").style.transform = "translate(-33.4%, 0)"; 
+    document.getElementById("main").style.transform = "translate(-33.4%, 0)";
+    closeMenu(); 
 }
 
 function openAbout(){
     document.getElementById("main").style.transform = "translate(-66.8%, -33.4%)"; 
+    closeMenu();
 }
 
 function openWebsites(){
     document.getElementById("main").style.transform = "translate(0, -33.4%)"; 
+    closeMenu();
 }
 
 function openContact(){
     document.getElementById("main").style.transform = "translate(-33.4%, -66.8%)";
+    closeMenu();
 }
 
