@@ -11,9 +11,9 @@
 <body>
     <div id="menu">
         <span id="buttonHome" class="menuButton">Home</span>
-        <span id="buttonWebsites" class="menuButton">Websites</span>
-        <span id="buttonAbout" class="menuButton">About</span>
-        <span id="buttonContact" class="menuButton">Contact</span>
+        <span id="buttonWebsites" class="menuButton">Webseiten</span>
+        <span id="buttonAbout" class="menuButton">Über mich</span>
+        <span id="buttonContact" class="menuButton">Kontakt</span>
         <img src='img/icons/hamburger.png' id='openNavi' class='naviPic'></img>
     </div>
     <div id="main">
