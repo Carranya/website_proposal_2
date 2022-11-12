@@ -1,35 +1,31 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lnag="de">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta charset="utf-8">
+    <meta http-euqiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Proposal 2</title>
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
-    <?php
-        include "pages/home.php";
-        include "pages/websites.php";
-        include "pages/contact.php";
-        include "pages/about.php";
-    ?>
-
-    <div id="headline">
-        <h1>Website Proposal 2</h1>    
-
-    </div>
-
     <div id="menu">
-        <?php include "pages/menu.php";?>
-        
+        <span id="buttonHome" class="menuButton">Home</span>
+        <span id="buttonWebsites" class="menuButton">Webseiten</span>
+        <span id="buttonAbout" class="menuButton">Über</span>
+        <span id="buttonContact" class="menuButton">Kontakt</span>
+        <img src='img/icons/hamburger.png' id='openNavi' class='naviPic'></img>
     </div>
-
-    <div id="main"></div>
-
-    <div id="footline">
-        Karin Giang 2022
+    <div id="main">
+        <div class="classPage"></div>
+        <div id="home" class="classPage"><?php include "pages/home.php"; ?></div>
+        <div class="classPage"></div>
+        <div id="websites" class="classPage"><?php include "pages/websites.php"; ?></div>
+        <div class="classPage"></div>
+        <div id="about" class="classPage"><?php include "pages/about.php" ?></div>
+        <div class="classPage"></div>
+        <div id="contact" class="classPage"><?php include "pages/contact.php"; ?></div>
+        <div class="classPage"></div>
     </div>
 </body>
 </html>

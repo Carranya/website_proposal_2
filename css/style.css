@@ -1,74 +1,114 @@
 @import "about.css";
-@import "displayNone.css";
-@import "mobile.css";
 @import "websites.css";
+@import "contact.css";
 
-body{
+body {
+    /* background-color: lightblue; */
+    margin: 0;
     font-family: Verdana;
-    font-size: 1.5em;
-    color: black;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
     background-color: lightgreen;
+    width: 300%;
+    height: 300%;
+    position: absolute;
+    transform: translate(0, 0);
+    transition: transform 1s;
+}
+
+#menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    width: 360px;
+    top: 0;
+    left: 0;
+    z-Index: 3;
+    transform: translate(-40px, 0);
+    transition: transform 1s;
+}
+
+#openNavi {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.menuButton {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menuButton:hover {
+    opacity: 0.4;
+}
+
+.classPage {
+    display: inline;
+    width: 33.3%;
+    height: 33.3%;
     text-align: justify;
 }
 
-#headline{
+.classPage h1 {
     text-align: center;
-    width: 100%;
-    height: 20%;
 }
 
-#menu{
-    display: flex;
-    background-color: forestgreen;
-    justify-content: right;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none;
-}
-
-li{
-    float: left;
-}
-
-li button{
-    display: block;
-    padding: 0.5em;
-    font-size: 1em;
-    text-decoration: none;
+.classPage h2 {
     text-align: center;
-    color: white;
-    background-color: #ffff0000;
-    border: none;
-    
 }
 
-li button:hover{
-    background-color: limegreen;
-    color: black;
-}
-
-#main{
-    margin: 1em;
+.classPage p {
     padding: 1em;
-    border: 10px solid forestgreen;
-}
-
-#footline{
-    font-size: 0.6em;
-    text-align: center;
-}
-
-.classTitle {
-    text-align: center;
 }
 
 .classPic{
-    float: right;
     width: 300px;
-    margin: 0.3em;
+    margin: 1em;
     border: 1px solid black;
+}
+
+.centerPic {
+    text-align: center;
+}
+
+.centerPage {
+    display: flex;
+    justify-content: center;
+}
+
+.innerPage {
+    width: 90%;
+    display: block;
+    border: 10px solid forestgreen;
+    background-color: lightgreen;
+    margin-top: 15%;
+}
+
+.innerPage a {
+    color: black;
+}
+
+@media (min-width: 640px){
+    #menu {
+        transform: translate(-320px, 0);
+    }
+
+    #openNavi {
+        display: block;
+    }
+
+    .innerPage{
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .classPic {
+        float: right;
+    }
 }

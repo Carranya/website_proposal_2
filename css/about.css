@@ -1,7 +1,15 @@
-#aboutTech{
+#aboutTech {
     text-align: center;
 }
 
-#aboutTech img{
+#aboutTech img {
     width: 100px;
+}
+
+#officalHomepage {
+    font-weight: bold;
+}
+
+#officalHomepage:hover {
+    opacity: 0.6;
 }
