@@ -40,4 +40,3 @@ function openContact(){
     document.getElementById("main").style.transform = "translate(-33.4%, -66.8%)";
     closeMenu();
 }
-
