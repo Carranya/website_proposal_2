@@ -21,6 +21,11 @@
 #websitesLogo {
     width: 20px;
     height: 20px;
+    transition: transform 0.5s;
+}
+
+#websitesLogo:hover {
+    transform: scale(1.2);
 }
 
 @media (min-width: 920px) {
